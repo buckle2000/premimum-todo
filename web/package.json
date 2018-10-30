@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mocha": "^5.2.0",
+    "pug": "^2.0.3",
+    "stream-expect": "^0.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/register": "^7.0.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^7.0.0-beta.3",
+    "babel-preset-es2015": "^7.0.0-beta.3",
+    "chai": "^4.2.0",
+    "mocha.parallel": "^0.15.6"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:@babel/register"
+  }
+}

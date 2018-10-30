@@ -1,0 +1,1 @@
+docker run -it --rm -p80:8080 todo-cli
